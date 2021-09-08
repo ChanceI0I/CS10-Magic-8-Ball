@@ -22,6 +22,8 @@ function answer() {
         document.getElementById("answer").innerHTML="How dare you doubt me!"
     } else if (input === "Is JavaScript awesome?") {
         document.getElementById("answer").innerHTML="Of Course!"
+    } else if (input === "") {
+        document.getElementById("answer").innerHTML="Please ask a question....."
     } else if (random_num <= 0.2) {
         document.getElementById("answer").innerHTML="Without a Doubt."
     } else if (0.2 < random_num <= 0.4 ) {
